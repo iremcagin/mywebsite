@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body-right-div{
+    background-color: #eff3ab29;
+    box-shadow: 0 0 10px 10px #b3b3b3;
+    border: 3px solid black;
+    width: 95%;
+    height: 95%;
+}
+
+/* ---------------- ME ------------------- */
+
+.body-right-div-top{
+    
+    display: flex;
+    align-items: center;
+    height: 25%;
+    border-bottom: 3px solid black;
+}
+
+.body-right-div-top-img{
+    background-color: #fadcf5;
+    height: 101%;
+}
+
+.body-right-div-top-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#myname{
+    color:#141414;
+    margin-left: 10px;  
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* ---------------- NAME DIV ------------------- */
+
+.body-right-div-top-me-border{
+    background: linear-gradient(to right,#aa4b6b,#6b6b83);
+    width: 30%;
+    height: 100%;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    
+}
+
+.body-right-div-top-me-border p{
+    color:#141414;
+    font-family: 'Concert One', cursive;
+    margin-left: 10px;  
+    font-size: 14px;
+}
+
+/* ---------------- CONTACT ------------------- */
+.body-right-div-top-right{
+    background: linear-gradient(to right,#6b6b83,#3b8d99);
+    height: 101%;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body-right-div-top-right-aboutt{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.body-right-div-top-right-aboutt p{
+    margin-top: 5px;
+}
+
+.body-right-div-top-right-aboutt p span{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.body-right-div-top-contact{
+    margin-left: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.body-right-div-top-contact ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.body-right-div-top-contact ul li{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+}
+
+.body-right-div-top-contact ul li a{
+    color:#5e0404e6;
+}
+
+.body-right-div-top-contact-icon{
+    margin-right: 10px;
+}
+
+.body-right-div-top-contact-text{
+    color:#22201f;
+    font-family: 'Concert One', cursive;
+    font-size: 27px; 
+}
+
+.body-right-div-top-contact-text2{
+    /*color: rgb(57, 117, 27); */
+    color:#22201f;
+    font-family: 'Concert One', cursive;
+    font-size: 30px; 
+    margin-bottom: 10px;
+}
+
+
+/* --------------- EDUCATION ------------------ */
+.body-right-div-mid{
+    background-color: #ecd3bd8e;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+}
+
+
+.body-right-div-mid-education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body-right-div-top-contact-text{
+    margin-bottom: 30px;
+}
+
+.body-right-div-mid-education-div{
+    display: flex;
+    align-items: center;
+}
+
+.body-right-div-mid-education-div ul li{
+    margin-bottom: 5px;
+}
+
+.body-right-div-mid-education-div ul:first-child{
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.body-right-div-mid-education-div ul:last-child{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+/* ---------------- COMPUTER SKILLS ------------------- */
+.body-right-div-mid-skills{
+    width: 22%;
+}
+
+.body-right-div-mid-skills ul li p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body-right-div-mid-skills ul li p div{
+    display: flex;
+    align-items: center;
+}
+
+.body-right-div-mid-skills ul li p div p{
+    margin-left: 10px;
+}
+
+.body-right-div-mid-skills ul li p ul{
+    display: flex;
+}
+
+.body-right-div-mid-skills ul li{
+    margin-bottom: 5px;
+}
+
+
+/* ---------------- LANGUAGES ------------------- */
+.body-right-div-mid-languages{
+    width: 22%;
+}
+
+.body-right-div-mid-languages ul li p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body-right-div-mid-languages ul li p div{
+    display: flex;
+    align-items: center;
+}
+
+.body-right-div-mid-languages ul li p div p{
+    margin-left: 10px;
+}
+
+.body-right-div-mid-languages ul li p ul{
+    display: flex;
+}
+
+.body-right-div-mid-languages ul li{
+    margin-bottom: 5px;
+}
+
+
+/* ---------------- EXPERIENCE ------------------- */
+.body-div-bottom{
+    background-color: #ecd3bd8e;
+    height: 40.5%;
+    padding: 20px;
+    display: flex;
+}
+
+.body-div-bottom-experience{
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+}
+
+.body-bottom-experience-div{
+    margin-left: -100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Concert One', cursive;
+}
+
+.body-div-bottom-hobbies{
+    margin-top: 10px;
+}
+
+.body-div-bottom-hobbies ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body-div-bottom-hobbies ul li{
+    margin-bottom: 10px;
+}
+
+.body-div-bottom-hobbies ul li div{
+    display: flex;
+    align-items: center;
+}
+
+.body-div-bottom-hobbies ul li div p{
+    margin-left: 10px;
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul, li{
+  text-indent: 0;
+  list-style-type:none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ------------ LEFT -------------- */
+.App{
+  display: flex;
+  height: 100vh;
+}
+
+
+/* ---------- RIGHT ----------- */
+.body-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color: rgb(249, 249, 249);
+  position: relative;
+}
+
+.bg{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  opacity: 0.6;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding: 50px;
+  width: 600px;
+  
+}
+
+.text-baslik{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.text-hello{
+  font-size: 80px;
+  margin-bottom: 60px;
+  font-family: 'Concert One', cursive;
+  position: absolute;
+  top: 0;
+  margin-top: 40px;
+}
+
+.text-shadow{
+  font-size: 120px;
+  opacity: 0.2;
+  color: rgb(249, 127, 5);
+  font-family: 'Concert One', cursive;
+}
+
+.text-intro{
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.text-tarih{
+  margin-top: 20px;
+  width: 100%;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* ---------- HOVER ------------- */
+.body-left-nav ul li:hover{
+  color: rgba(239, 239, 239, 0.74);
+  cursor: pointer;
+} 
+
+#github-link:hover{
+  color: rgb(95, 141, 72);
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 800px)  {
+
+}
