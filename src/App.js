@@ -1,7 +1,7 @@
-import Home from "./components/Home.js"
-import About from "./components/About.js"
-import Projects from "./components/Projects.js"
-import {Contacts} from "./components/Contacts.js"
+import Home from "./components/Home"
+import About from "./components/About"
+import Projects from "./components/Projects"
+import Contacts from "./components/Contacts"
 import {Route, HashRouter } from 'react-router-dom';
 
 
