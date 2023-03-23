@@ -7,7 +7,7 @@ import {PopUpMessage} from "./PopUpMessage"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faEnvelope, faPhone, faLocationPin} from "@fortawesome/free-solid-svg-icons"
 
-export const Contact = () => {
+export const Contacts = () => {
     const [showPopUp, setShowPopUp] = React.useState(false);
 
     const form = useRef();
