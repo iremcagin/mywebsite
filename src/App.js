@@ -2,18 +2,16 @@ import Home from "./components/Home.js"
 import About from "./components/About.js"
 import Projects from "./components/Projects.js"
 import {Contact} from "./components/Contact.js"
-import { BrowserRouter, Routes ,Route, HashRouter } from 'react-router-dom';
+import {Routes ,Route, HashRouter } from 'react-router-dom';
 
 
 function App() {
   return (
     <HashRouter>
-      <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="about" element={<About />} />
-        <Route path="projects" element={<Projects />} />
-        <Route path="contact" element={<Contact />} />
-      </Routes>
+        <Route exact path="/" component={<Home />}/>
+        <Route exact path="about" component={<About />} />
+        <Route exact path="projects" component={<Projects />} />
+        <Route exact path="contact" component={<Contact />} />
     </HashRouter>
   );
 }
