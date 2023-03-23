@@ -8,10 +8,12 @@ import {Route, HashRouter } from 'react-router-dom';
 function App() {
   return (
     <HashRouter>
-        <Route path="/" component={Home}/>
-        <Route path="about" component={About} />
-        <Route path="projects" component={Projects} />
-        <Route path="contact" component={Contacts} />
+        <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route exact path="about" component={About} />
+          <Route exact path="projects" component={Projects} />
+          <Route exact path="contact" component={Contacts} />
+        </Switch>
     </HashRouter>
   );
 }
